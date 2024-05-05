@@ -17,6 +17,6 @@ export class AppComponent {
       this.http
         .get('https://algo-trade-va5l.onrender.com')
         .subscribe((r) => console.log('Hitting...'));
-    }, 1000);
+    }, 120000);
   }
 }
