@@ -15,7 +15,9 @@ export class AppComponent {
   constructor(private http: HttpClient) {
     setInterval(() => {
       this.http
-        .get('https://algo-trade-va5l.onrender.com')
+        .get('https://algo-trade-va5l.onrender.com', {
+          responseType: 'arraybuffer',
+        })
         .subscribe((r) => console.log('Hitting...'));
     }, 120000);
   }
