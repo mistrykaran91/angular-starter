@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "gh-pages-build": "ng build --base-href=/angular-starter/",
-    "gh-pages-deploy": "ng deploy --build-target=test:build:production",
+    "gh-pages-build": "ng build",
+    "gh-pages-deploy": "ng deploy --repo=https://github.com/mistrykaran91/angular-starter.git",
     "gh-pages-prod-deploy": "npm run gh-pages-build && npm run gh-pages-deploy"
   },
   "private": true,

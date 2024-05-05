@@ -94,6 +94,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://mistrykaran91.github.io/angular-starter/",
+            "name": "Angular Starter",
+            "email": "mistrykaran91@gmail.com"
+          }
         }
       }
     }
